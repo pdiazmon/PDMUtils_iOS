@@ -10,6 +10,11 @@
 		EB0D60A8200DFF8B00C55DED /* PDMUtils_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0D609E200DFF8B00C55DED /* PDMUtils_iOS.framework */; };
 		EB0D60AD200DFF8B00C55DED /* PDMUtils_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0D60AC200DFF8B00C55DED /* PDMUtils_iOSTests.swift */; };
 		EB0D60AF200DFF8B00C55DED /* PDMUtils_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = EB0D60A1200DFF8B00C55DED /* PDMUtils_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB0D60B9200DFFDE00C55DED /* JavaInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0D60B8200DFFDE00C55DED /* JavaInteger.swift */; };
+		EB0D60BB200E07E600C55DED /* PDMString.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0D60BA200E07E600C55DED /* PDMString.swift */; };
+		EB1752952011004E0013AC93 /* PDMUtils_JavaIntegerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1752942011004E0013AC93 /* PDMUtils_JavaIntegerTests.swift */; };
+		EB462C7F200FACE90019EECF /* JavaString.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB462C7E200FACE90019EECF /* JavaString.swift */; };
+		EB462C81200FB1F80019EECF /* PDMUtils_JavaStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB462C80200FB1F80019EECF /* PDMUtils_JavaStringTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +32,13 @@
 		EB0D60A1200DFF8B00C55DED /* PDMUtils_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDMUtils_iOS.h; sourceTree = "<group>"; };
 		EB0D60A2200DFF8B00C55DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB0D60A7200DFF8B00C55DED /* PDMUtils_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDMUtils_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB0D60AC200DFF8B00C55DED /* PDMUtils_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDMUtils_iOSTests.swift; sourceTree = "<group>"; };
+		EB0D60AC200DFF8B00C55DED /* PDMUtils_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDMUtils_iOSTests.swift; sourceTree = "<group>"; usesTabs = 1; wrapsLines = 0; };
 		EB0D60AE200DFF8B00C55DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB0D60B8200DFFDE00C55DED /* JavaInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaInteger.swift; sourceTree = "<group>"; usesTabs = 0; wrapsLines = 0; };
+		EB0D60BA200E07E600C55DED /* PDMString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDMString.swift; sourceTree = "<group>"; usesTabs = 1; wrapsLines = 0; };
+		EB1752942011004E0013AC93 /* PDMUtils_JavaIntegerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDMUtils_JavaIntegerTests.swift; sourceTree = "<group>"; };
+		EB462C7E200FACE90019EECF /* JavaString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaString.swift; sourceTree = "<group>"; usesTabs = 1; wrapsLines = 0; };
+		EB462C80200FB1F80019EECF /* PDMUtils_JavaStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDMUtils_JavaStringTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +83,9 @@
 			children = (
 				EB0D60A1200DFF8B00C55DED /* PDMUtils_iOS.h */,
 				EB0D60A2200DFF8B00C55DED /* Info.plist */,
+				EB462C7E200FACE90019EECF /* JavaString.swift */,
+				EB0D60B8200DFFDE00C55DED /* JavaInteger.swift */,
+				EB0D60BA200E07E600C55DED /* PDMString.swift */,
 			);
 			path = PDMUtils_iOS;
 			sourceTree = "<group>";
@@ -81,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				EB0D60AC200DFF8B00C55DED /* PDMUtils_iOSTests.swift */,
+				EB462C80200FB1F80019EECF /* PDMUtils_JavaStringTests.swift */,
+				EB1752942011004E0013AC93 /* PDMUtils_JavaIntegerTests.swift */,
 				EB0D60AE200DFF8B00C55DED /* Info.plist */,
 			);
 			path = PDMUtils_iOSTests;
@@ -148,6 +163,7 @@
 				TargetAttributes = {
 					EB0D609D200DFF8A00C55DED = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					EB0D60A6200DFF8B00C55DED = {
@@ -196,6 +212,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB0D60BB200E07E600C55DED /* PDMString.swift in Sources */,
+				EB0D60B9200DFFDE00C55DED /* JavaInteger.swift in Sources */,
+				EB462C7F200FACE90019EECF /* JavaString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB462C81200FB1F80019EECF /* PDMUtils_JavaStringTests.swift in Sources */,
 				EB0D60AD200DFF8B00C55DED /* PDMUtils_iOSTests.swift in Sources */,
+				EB1752952011004E0013AC93 /* PDMUtils_JavaIntegerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +355,7 @@
 		EB0D60B3200DFF8B00C55DED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -346,6 +368,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pdiazmon.PDMUtils-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -354,6 +377,7 @@
 		EB0D60B4200DFF8B00C55DED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -374,6 +398,7 @@
 		EB0D60B6200DFF8B00C55DED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PDMUtils_iOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -387,6 +412,7 @@
 		EB0D60B7200DFF8B00C55DED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PDMUtils_iOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
