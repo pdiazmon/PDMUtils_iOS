@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB004B2B20263ED300F372D4 /* PDMQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB004B2A20263ED300F372D4 /* PDMQueue.swift */; };
 		EB0D60A8200DFF8B00C55DED /* PDMUtils_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0D609E200DFF8B00C55DED /* PDMUtils_iOS.framework */; };
 		EB0D60AD200DFF8B00C55DED /* PDMUtils_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0D60AC200DFF8B00C55DED /* PDMUtils_iOSTests.swift */; };
 		EB0D60AF200DFF8B00C55DED /* PDMUtils_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = EB0D60A1200DFF8B00C55DED /* PDMUtils_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB004B2A20263ED300F372D4 /* PDMQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDMQueue.swift; sourceTree = "<group>"; };
 		EB0D609E200DFF8B00C55DED /* PDMUtils_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PDMUtils_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB0D60A1200DFF8B00C55DED /* PDMUtils_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDMUtils_iOS.h; sourceTree = "<group>"; };
 		EB0D60A2200DFF8B00C55DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				EB462C7E200FACE90019EECF /* JavaString.swift */,
 				EB0D60B8200DFFDE00C55DED /* JavaInteger.swift */,
 				EB0D60BA200E07E600C55DED /* PDMString.swift */,
+				EB004B2A20263ED300F372D4 /* PDMQueue.swift */,
 			);
 			path = PDMUtils_iOS;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				EB0D60BB200E07E600C55DED /* PDMString.swift in Sources */,
 				EB0D60B9200DFFDE00C55DED /* JavaInteger.swift in Sources */,
 				EB462C7F200FACE90019EECF /* JavaString.swift in Sources */,
+				EB004B2B20263ED300F372D4 /* PDMQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
