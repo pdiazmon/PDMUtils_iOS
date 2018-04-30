@@ -14,8 +14,11 @@
 		EB0D60B9200DFFDE00C55DED /* JavaInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0D60B8200DFFDE00C55DED /* JavaInteger.swift */; };
 		EB0D60BB200E07E600C55DED /* PDMString.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0D60BA200E07E600C55DED /* PDMString.swift */; };
 		EB1752952011004E0013AC93 /* PDMUtils_JavaIntegerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1752942011004E0013AC93 /* PDMUtils_JavaIntegerTests.swift */; };
+		EB284C5220810E7D00DB8C44 /* PDMPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB284C5120810E7D00DB8C44 /* PDMPlayer.swift */; };
+		EB284C55208111B800DB8C44 /* PDMRoundCornerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB284C54208111B800DB8C44 /* PDMRoundCornerButton.swift */; };
 		EB462C7F200FACE90019EECF /* JavaString.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB462C7E200FACE90019EECF /* JavaString.swift */; };
 		EB462C81200FB1F80019EECF /* PDMUtils_JavaStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB462C80200FB1F80019EECF /* PDMUtils_JavaStringTests.swift */; };
+		EBF4CF8320320AD9007ABAFD /* PDMMediaLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF4CF8220320AD9007ABAFD /* PDMMediaLibrary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,11 @@
 		EB0D60B8200DFFDE00C55DED /* JavaInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaInteger.swift; sourceTree = "<group>"; usesTabs = 0; wrapsLines = 0; };
 		EB0D60BA200E07E600C55DED /* PDMString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDMString.swift; sourceTree = "<group>"; usesTabs = 1; wrapsLines = 0; };
 		EB1752942011004E0013AC93 /* PDMUtils_JavaIntegerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDMUtils_JavaIntegerTests.swift; sourceTree = "<group>"; };
+		EB284C5120810E7D00DB8C44 /* PDMPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDMPlayer.swift; sourceTree = "<group>"; };
+		EB284C54208111B800DB8C44 /* PDMRoundCornerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDMRoundCornerButton.swift; sourceTree = "<group>"; };
 		EB462C7E200FACE90019EECF /* JavaString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaString.swift; sourceTree = "<group>"; usesTabs = 1; wrapsLines = 0; };
 		EB462C80200FB1F80019EECF /* PDMUtils_JavaStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDMUtils_JavaStringTests.swift; sourceTree = "<group>"; };
+		EBF4CF8220320AD9007ABAFD /* PDMMediaLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDMMediaLibrary.swift; sourceTree = "<group>"; wrapsLines = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,8 @@
 		EB0D60A0200DFF8B00C55DED /* PDMUtils_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				EB284C532081119600DB8C44 /* UI */,
+				EB284C4E20810E2800DB8C44 /* MediaLibrary */,
 				EB0D60A1200DFF8B00C55DED /* PDMUtils_iOS.h */,
 				EB0D60A2200DFF8B00C55DED /* Info.plist */,
 				EB462C7E200FACE90019EECF /* JavaString.swift */,
@@ -102,6 +110,23 @@
 				EB0D60AE200DFF8B00C55DED /* Info.plist */,
 			);
 			path = PDMUtils_iOSTests;
+			sourceTree = "<group>";
+		};
+		EB284C4E20810E2800DB8C44 /* MediaLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				EBF4CF8220320AD9007ABAFD /* PDMMediaLibrary.swift */,
+				EB284C5120810E7D00DB8C44 /* PDMPlayer.swift */,
+			);
+			path = MediaLibrary;
+			sourceTree = "<group>";
+		};
+		EB284C532081119600DB8C44 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EB284C54208111B800DB8C44 /* PDMRoundCornerButton.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,8 +242,11 @@
 			files = (
 				EB0D60BB200E07E600C55DED /* PDMString.swift in Sources */,
 				EB0D60B9200DFFDE00C55DED /* JavaInteger.swift in Sources */,
+				EB284C55208111B800DB8C44 /* PDMRoundCornerButton.swift in Sources */,
 				EB462C7F200FACE90019EECF /* JavaString.swift in Sources */,
 				EB004B2B20263ED300F372D4 /* PDMQueue.swift in Sources */,
+				EB284C5220810E7D00DB8C44 /* PDMPlayer.swift in Sources */,
+				EBF4CF8320320AD9007ABAFD /* PDMMediaLibrary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
